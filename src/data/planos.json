@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Plano Anual",
+    "price": "R$ 28,90",
+    "discount": "38% OFF",
+    "description": "Frete grátis para RJ (capital)"
+  },
+  {
+    "id": 2,
+    "name": "Plano Mensal",
+    "price": "R$ 34,88",
+    "discount": "25% OFF",
+    "description": "Frete grátis para RJ (capital)"
+  }
+]

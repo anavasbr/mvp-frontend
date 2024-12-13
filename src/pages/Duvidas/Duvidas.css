@@ -1,0 +1,70 @@
+.faq-section {
+  text-align: center;
+  padding: 50px 6%;
+  font-family: 'Poppins', sans-serif;
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.faq-section h2 {
+  font-weight: 500;
+  font-size: 2rem;
+  color: #B3123C;
+  margin-bottom: 40px;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.faq-question {
+  width: 100%;
+  background-color: #F9F9F9;
+  border: none;
+  text-align: left;
+  padding: 15px 20px;
+  
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.faq-question:hover {
+  background-color: #F1F1F1;
+}
+
+.faq-icon {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #B3123C;
+  transition: transform 0.3s ease;
+}
+
+.faq-answer {
+  padding: 15px 20px;
+  background-color: #FFF;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #555;
+  display: none;
+}
+
+.faq-answer p {
+  margin: 0;
+}
+
+/* Para expandir o acordeão */
+.faq-item.open .faq-answer {
+  display: block;
+}
+
+.faq-item.open .faq-icon {
+  transform: rotate(45deg);
+}

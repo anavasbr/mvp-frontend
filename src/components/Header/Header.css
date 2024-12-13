@@ -1,0 +1,49 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 6%;
+  background-color: #fff;
+}
+
+.text-hero p{
+  font-size: 20px;
+  font-weight: 200;
+  color: #fff;
+  width: 45%;
+  letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+header img {
+  height: 50px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #1d1d1d;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav ul li a:hover {
+  color: #a32252;
+}
+
+nav ul li a:active {
+  color: #a32252;
+  font-weight: 500px;
+}

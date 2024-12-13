@@ -1,0 +1,89 @@
+/* Estilos para a página Home */
+.hero {
+  background-image: url('../../assets/home-banner.jpg');
+  background-size: cover;
+  background-position: center;  
+  padding: 210px 20px;
+  
+  
+}
+
+.text-hero{
+  text-align: left;
+  margin-left: 6%;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+.text-hero h1{
+  font-size: 90px;
+  line-height: 90px;
+  font-weight: 300;
+  color: #B3123C;
+  letter-spacing: -1px;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+.text-hero p{
+  font-size: 20px;
+  font-weight: 200;
+  color: #fff;
+  width: 45%;
+  letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+
+
+.hero-content p {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  max-width: 700px;
+  margin: 0 auto;
+  padding-left: 30%;
+}
+
+.newsletter {
+  background-color: #f8f8f8;
+  text-align: center;
+  padding: 40px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.newsletter h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #a32252;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.newsletter-form input[type="email"] {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.newsletter-form button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #a32252;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.newsletter-form button:hover {
+  background-color: #871a42;
+}

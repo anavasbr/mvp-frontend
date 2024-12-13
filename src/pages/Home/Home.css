@@ -1,0 +1,177 @@
+/* Estilos para a página Home */
+.hero {
+  background-image: url('../../assets/home-banner.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 150px 20px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.newsletter {
+  background-color: #f8f8f8;
+  text-align: center;
+  padding: 140px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.newsletter h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #a32252;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.newsletter-form input[type="email"] {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.newsletter-form button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #a32252;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.newsletter-form button:hover {
+  background-color: #871a42;
+}
+
+.como-funciona {
+  text-align: center;
+  padding: 50px 6%;
+  padding-bottom: 60px;
+}
+
+.como-funciona h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: #B3123C;
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+.funciona-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.funciona-item {
+  flex: 1;
+  max-width: 22%;
+  text-align: center;
+}
+
+.funciona-item img {
+  width: 110px;
+  height: 110px;
+  margin-bottom: 20px;
+}
+
+.funciona-item h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #B3123C;
+  margin-bottom: 10px;
+}
+
+.funciona-item p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  color: #333;
+}
+
+.beneficios {
+  
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  height: auto;
+}
+
+.beneficios-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -7px;
+  flex-wrap: wrap;
+  align-items: center; /* Alinha verticalmente */
+  background-color: #B3123C;
+  width: 100%;
+}
+
+.beneficios-item {
+  flex: 1;
+  max-width: 50%;
+  text-align: center;
+  height: auto;
+}
+
+.beneficios-item h2 {
+  font-weight: 300;
+  font-size: 35px;
+  color: #fff;
+  margin-bottom: 30px;
+  padding-left: 10%;
+  padding-right: 8%;
+  text-align: left;
+  width: 60%;
+  font-family: 'Poppins', sans-serif;
+  line-height: 45px;
+}
+
+.beneficios-item ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 12%;
+
+}
+
+.beneficios-item ul li {
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 22px;
+  line-height: 32px;
+
+}
+
+.beneficios-item img {
+  width: 100%;
+  margin-bottom: 0px;
+  padding: 0px;
+  
+}
