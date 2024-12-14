@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import Banner from "../../components/Banner/Banner";
+import Newsletter from "../../components/Newsletter/Newsletter";
 import FloatingWhatsAppButton from "../../components/FloatingWhatsAppButton/FloatingWhatsAppButton";
 import "./Home.css";
 import assineClube from "../../assets/icone-assine-clube.png";
@@ -10,6 +11,7 @@ import recebaCasa from "../../assets/icone-receba-casa.png";
 import aproveite from "../../assets/icone-aproveite.png";
 import fotoUm from "../../assets/foto-01.jpg";
 import fotoDois from "../../assets/foto-02.jpg";
+
 
 function Home() {
   return (
@@ -86,14 +88,9 @@ function Home() {
           </div>
         </div>
 
-        <section className="newsletter">
-          <h2>Receba nossas novidades</h2>
-          <form className="newsletter-form">
-            <input type="email" placeholder="Digite seu e-mail" />
-            <button type="submit">Enviar</button>
-          </form>
-        </section>
+        
       </main>
+      <Newsletter />
       <Footer />
       <FloatingWhatsAppButton />
     </>

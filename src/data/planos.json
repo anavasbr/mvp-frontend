@@ -1,16 +1,18 @@
 [
   {
     "id": 1,
-    "name": "Plano Anual",
-    "price": "R$ 28,90",
-    "discount": "38% OFF",
-    "description": "Frete grátis para RJ (capital)"
+    "tipo": "Mensal",
+    "desconto": "25%",
+    "precoOriginal": 56.25,
+    "precoComDesconto": 28.90,
+    "descricao": "FRETE GRÁTIS PARA RIO E NITERÓÍ"
   },
   {
     "id": 2,
-    "name": "Plano Mensal",
-    "price": "R$ 34,88",
-    "discount": "25% OFF",
-    "description": "Frete grátis para RJ (capital)"
+    "tipo": "Anual",
+    "desconto": "38%",
+    "precoOriginal": 56.25,
+    "precoComDesconto": 34.88,
+    "descricao": "FRETE GRÁTIS PARA RIO E NITERÓÍ"
   }
 ]
