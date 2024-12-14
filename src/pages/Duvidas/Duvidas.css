@@ -4,6 +4,7 @@
   font-family: 'Poppins', sans-serif;
   padding-left: 12%;
   padding-right: 12%;
+  background-color: #FFF;
 }
 
 .faq-section h2 {
@@ -60,7 +61,7 @@
   margin: 0;
 }
 
-/* Para expandir o acordeão */
+
 .faq-item.open .faq-answer {
   display: block;
 }

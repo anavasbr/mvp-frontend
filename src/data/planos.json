@@ -2,17 +2,17 @@
   {
     "id": 1,
     "tipo": "Mensal",
-    "desconto": "25%",
+    "desconto": "25% OFF",
     "precoOriginal": 56.25,
-    "precoComDesconto": 28.90,
-    "descricao": "FRETE GRÁTIS PARA RIO E NITERÓÍ"
+    "precoComDesconto": 34.88,
+    "descricao": "FRETE GRÁTIS PARA RIO E NITERÓI"
   },
   {
     "id": 2,
     "tipo": "Anual",
-    "desconto": "38%",
+    "desconto": "38% OFF",
     "precoOriginal": 56.25,
-    "precoComDesconto": 34.88,
-    "descricao": "FRETE GRÁTIS PARA RIO E NITERÓÍ"
+    "precoComDesconto": 28.90,
+    "descricao": "FRETE GRÁTIS PARA RIO E NITERÓI"
   }
 ]

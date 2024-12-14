@@ -11,11 +11,11 @@ const Planos = () => {
   const [planos, setPlanos] = useState([]);
 
   useEffect(() => {
-    // Simulando o delay de uma API
+    
     const fetchPlanos = () => {
       setTimeout(() => {
         setPlanos(planosData);
-      }, 1000); // Delay de 1 segundo
+      }, 1000); 
     };
 
     fetchPlanos();
@@ -34,15 +34,15 @@ const Planos = () => {
             planos.map((plano) => (
               <div key={plano.id} className="plano-card">
                 <h3>
-                  Plano {plano.tipo}{" "}
+                  Plano {plano.tipo}{" "} 
                   <span className="desconto">{plano.desconto}</span>
                 </h3>
                 <p className="preco-original">
-                  De <s>R$ {plano.precoOriginal.toFixed(2)}</s>/garrafa por
-                </p>
+                  De <s>R$ {plano.precoOriginal.toFixed(2)}</s> p/ garrafa
+                </p><br />
                 <p className="preco-destaque">
-                  R$ {plano.precoComDesconto.toFixed(2)}
-                </p>
+                  R$ {plano.precoComDesconto.toFixed(2)} 
+                </p> <p className="porgarrafa">por garrafa</p>
                 <p className="descricao">{plano.descricao}</p>
                 <button className="btn-assinar">QUERO ASSINAR!</button>
               </div>
@@ -60,28 +60,3 @@ const Planos = () => {
 
 export default Planos;
 
-// import React from 'react';
-// import './Planos.css';
-// import planos from '../../data/planos.json';
-
-// const Planos = () => {
-//   return (
-//     <div className="planos">
-//       <h2>Planos de Assinatura</h2>
-//       <div className="planos-container">
-//         {planos.map((plano) => (
-//           <div key={plano.id} className="plano-card">
-//             <h3>Plano {plano.tipo}</h3>
-//             <p className="desconto">{plano.desconto} OFF</p>
-//             <p className="preco-original">De R${plano.precoOriginal.toFixed(2)}/garrafa</p>
-//             <p className="preco-com-desconto">Por R${plano.precoComDesconto.toFixed(2)}</p>
-//             <p className="descricao">{plano.descricao}</p>
-//             <button className="btn-assinar">Quero Assinar!</button>
-//           </div>
-//         ))}
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Planos;

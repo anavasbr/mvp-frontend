@@ -5,7 +5,7 @@ import whatsappIcon from "../../assets/whatsappIcon.png";
 function FloatingWhatsAppButton() {
   return (
     <a
-      href="https://wa.me/5521987654321"
+      href="https://wa.me/5521998877665"
       className="floating-whatsapp"
       target="_blank"
       rel="noopener noreferrer"
